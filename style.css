@@ -1,0 +1,24 @@
+#nome{
+  font-family:Helvetica, sans-serif;
+}
+#descricao{
+  font-family: Fira Code;
+}
+body{
+  background-color: #F1FAEE;  
+}
+#tag{
+  font-weight: 1000;
+}
+.um{
+  font-size: 20px;
+}
+.dois{
+  font-size: 30px;
+}
+.tres{
+  font-size: 40px;
+}
+.quatro{
+  font-size: 45px;
+}
