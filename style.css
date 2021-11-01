@@ -1,8 +1,20 @@
+body{
+  padding: 30px;
+}
 #nome{
   font-family:Helvetica, sans-serif;
+  text-align: center;
 }
 #descricao{
   font-family: Fira Code;
+  padding-top:50px;
+}
+#foto{
+  width:170px;
+  border-radius: 50%;
+  float: left;
+  padding: 10px;
+  background-color: blueviolet;
 }
 body{
   background-color: #F1FAEE;  
@@ -21,4 +33,11 @@ body{
 }
 .quatro{
   font-size: 45px;
+}
+div.foto{
+  height: 180px;
+}
+/* Para adicionar estilo somente nos itens impares da lista */
+ul li:nth-child(odd){
+  background-color: blueviolet;
 }
