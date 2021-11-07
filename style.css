@@ -3,7 +3,6 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  background-color: rgb(253, 251, 251); /* Obrigatorio */
   font-family: Fira Code, Helvetica, sans-serif;
 }
 
@@ -69,6 +68,10 @@ img {
   margin-top: 55px;
   margin-left: 290px;
   margin-right: 50px;
+}
+
+.projects{
+  color: black;
 }
 
 footer {
