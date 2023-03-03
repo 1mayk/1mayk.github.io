@@ -1,9 +1,10 @@
 {
-  "name": "portfolio",
+  "name": "mindspace",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "npm run dev",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
