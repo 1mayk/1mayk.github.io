@@ -3,13 +3,13 @@ import "./Header.css";
 
 export default function Header() {
   /*=============== Toggle Menu ===============*/
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState<boolean>(false);
 
   return (
-    <header>
+    <header className="header">
       <nav className="nav container">
         <a href="/" className="nav__logo">
-          Maycon
+          Mayk
         </a>
 
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -39,8 +39,8 @@ export default function Header() {
             </li>
 
             <li className="nav__item">
-              <a href="#portfolio" className="nav__link">
-                <i className="uil uil-scenery nav__icon"></i> Port
+              <a href="#projects" className="nav__link">
+                <i className="uil uil-scenery nav__icon"></i> Projects
               </a>
             </li>
 
