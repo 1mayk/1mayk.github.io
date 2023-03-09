@@ -1,7 +1,36 @@
-import React from "react";
+import React, { FormEvent, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 export default function Contact() {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_llaatyi",
+        "template_d4y9zv9",
+        // Verifica se é nulo antes de receber e executar o current
+        form.current ?? "",
+        "b63bony5TQdFrpwIE"
+      )
+      .then(() => {
+        if (form.current instanceof HTMLFormElement) {
+          form.current.reset()
+        }
+      });
+    // .then(
+    //   (result) => {
+    //     console.log(result.text);
+    //   },
+    //   (error) => {
+    //     console.log(error.text);
+    //   }
+    // );
+  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Contact</h2>
@@ -65,7 +94,7 @@ export default function Contact() {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
-          <form className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
