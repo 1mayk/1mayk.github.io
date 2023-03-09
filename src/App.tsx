@@ -8,6 +8,7 @@ import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Testimonials />
         {/* SLIDE COMPONENT */}
         <Contact />
+        <Footer />
       </main>
     </>
   );
