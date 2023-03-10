@@ -22,7 +22,7 @@ function App() {
         <Services />
         <Qualification />
         {/* SLIDE COMPONENT */}
-        <Testimonials />
+        {/* <Testimonials /> */}
         {/* SLIDE COMPONENT */}
         <Contact />
       </main>

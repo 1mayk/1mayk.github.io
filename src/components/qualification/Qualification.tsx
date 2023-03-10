@@ -49,13 +49,13 @@ export default function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">Fullstack Web Dev</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Trybe
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Presentent
+                  2021 - 2023
                 </div>
               </div>
               <div>
@@ -73,26 +73,26 @@ export default function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Chemical Engineering</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  UTFPR - Apucarana
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2020 - 2021
+                  2016 - 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">Informatics</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  ETEC - Presidente Venceslau
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2018 - 2020
+                  2013 - 2014
                 </div>
               </div>
               <div>
@@ -101,7 +101,7 @@ export default function Qualification() {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -119,7 +119,7 @@ export default function Qualification() {
                   2017 - 2018
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -131,13 +131,13 @@ export default function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">Freelancer</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  Brazil
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Presentent
+                  2022 - Present
                 </div>
               </div>
               <div>
@@ -146,7 +146,7 @@ export default function Qualification() {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -164,9 +164,9 @@ export default function Qualification() {
                   2020 - 2021
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Designer</h3>
                 <span className="qualification__subtitle">Digma - Spain</span>
@@ -179,7 +179,7 @@ export default function Qualification() {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

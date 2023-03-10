@@ -17,7 +17,7 @@ export default function Services() {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Frontend <br /> Development
             </h3>
           </div>
 
@@ -37,9 +37,9 @@ export default function Services() {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title"> Product Designer</h3>
+              <h3 className="services__modal-title">Frontend Development</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 3 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -47,35 +47,39 @@ export default function Services() {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
+                    I create attractive and responsive user interfaces.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    I develop interactive websites and web applications.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I optimize the performance and usability of existing
+                    websites.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I implement high-quality designs using HTML, CSS, and
+                    JavaScript.
+                  </p>
+                </li>
+
+                {/* <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Design and mockups of products for companies.
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -100,11 +104,14 @@ export default function Services() {
             }
           >
             <div className="services__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
 
               <h3 className="services__modal-title">UI/UX Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 3 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -150,7 +157,7 @@ export default function Services() {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Backend <br /> Development
             </h3>
           </div>
 
@@ -159,15 +166,20 @@ export default function Services() {
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className={
+          <div
+            className={
               toggle === 3 ? "services__modal active-modal" : "services__modal"
-            }>
+            }
+          >
             <div className="services__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Backend Development</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 3 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -175,35 +187,41 @@ export default function Services() {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
+                    I develop and maintain scalable and secure servers and
+                    databases.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    I create and integrate APIs to enable communication between
+                    different systems and applications.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I implement authentication and authorization solutions to
+                    protect sensitive data and resources.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I solve complex problems related to infrastructure,
+                    performance, and security of systems.
+                  </p>
+                </li>
+
+                {/* <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Design and mockups of products for companies.
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

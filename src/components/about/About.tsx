@@ -18,7 +18,7 @@ export default function About() {
 
           <p className="about__description">
             Fullstack web developer, I create web sites end-to-end with tests and
-            UI/UX design ~ completar essa descrição ~
+            UI/UX design.
           </p>
         
           <a download='' href={CV} className="button button--flex">

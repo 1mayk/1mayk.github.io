@@ -18,11 +18,11 @@ export default function Footer() {
               Projects
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#testimonials" className="footer__link">
               Testimonials
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className="footer__social">
